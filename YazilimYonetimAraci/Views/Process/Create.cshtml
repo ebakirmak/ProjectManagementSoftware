@@ -1,0 +1,110 @@
+﻿@model YazilimYonetimAraci.Models.ModelProcess
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">           
+            <div class="col-md-10">
+                @Html.HiddenFor(model => model.ProjectID, new { htmlAttributes = new { @class = "form-control",@readonly="read-only", @id="projectID"} })
+                @Html.ValidationMessageFor(model => model.ProjectID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group" id="divParent">
+            @Html.LabelFor(model => model.ProcessManagerID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.ProcessManagerID, new[] { new SelectListItem { Text = "", Value = "" } }, "Process Sahibini Seçiniz", htmlAttributes: new { id = "ProcessManagerID", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ProcessManagerID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.ProcessType, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.ProcessType, new[] { new SelectListItem { Text = "ANA SÜREÇ" }, new SelectListItem { Text = "SÜREÇ" }, new SelectListItem { Text = "ALT SÜREÇ" } }, "KONUM SEÇİNİZ", htmlAttributes: new { id = "ProcessType", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ProcessType, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" id="divParent">
+            @Html.LabelFor(model => model.ParentID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.ParentID, new[] { new SelectListItem { Text = "", Value = "" } }, "Parent ID Seçiniz", htmlAttributes: new { id = "ParentID", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ParentID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ProcessName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ProcessName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ProcessName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    
+        <div class="form-group">
+            @Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FinishDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FinishDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FinishDate, "", new { @class = "text-danger" })
+            </div>
+        </div>     
+        <div class="form-group">
+            @Html.LabelFor(model => model.Priority, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Priority, new[] { new SelectListItem { Text = "Acil",Value="1" }, new SelectListItem { Text = "Önemli",Value="2" }, new SelectListItem { Text = "Normal",Value="3" }, new SelectListItem { Text = "Esnek", Value = "4" } }, "Öncelik Seçiniz", htmlAttributes: new { id = "Priority", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ProcessType, "", new { @class = "text-danger" })
+            </div>
+        </div> 
+        <div class="form-group">
+            @Html.LabelFor(model => model.Duration, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Duration, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Duration, "", new { @class = "text-danger" })
+            </div>
+        </div> 
+        <div class="form-group">
+            @Html.LabelFor(model => model.Descriptions, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Descriptions, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Descriptions, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Ekle" class="btn btn-primary btn-lg" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @ViewBag.TarihKarsilastirma
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+ @Html.ActionLink("Süreçlere Dön", "Index",new {ProjectID=Model.ProjectID })
+</div>
+<script src="~/Scripts/AppScripts/JSProcess.js"></script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")   
+}

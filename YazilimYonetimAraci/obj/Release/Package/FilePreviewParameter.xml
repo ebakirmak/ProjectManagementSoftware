@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="twitter" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ebakirmak\\Desktop\\YAZILIM\ SINAMA\\YazilimSinamaMVC\\YazilimYonetimAraci\\YazilimYonetimAraci\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ebakirmak\\Desktop\\YAZILIM\ SINAMA\\YazilimSinamaMVC\\YazilimYonetimAraci\\YazilimYonetimAraci\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="YazilimYonetimAraciEntities-Web.config Connection String" description="" value="metadata=res://*/YYAModel.csdl|res://*/YYAModel.ssdl|res://*/YYAModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=YazilimYonetimAraci;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ebakirmak\\Desktop\\YAZILIM\ SINAMA\\YazilimSinamaMVC\\YazilimYonetimAraci\\YazilimYonetimAraci\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='YazilimYonetimAraciEntities']/@connectionString" />
+  </parameter>
+</parameters>

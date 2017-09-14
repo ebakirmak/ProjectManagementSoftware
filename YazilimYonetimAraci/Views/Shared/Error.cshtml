@@ -1,0 +1,16 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>HATA !</h1>
+        <h2>İŞLEMLER YÜRÜTÜLÜRKEN BAZI AKSİLİKLER MEYDANA GELDİ.</h2>
+        <h1 class="text-danger">Controller: @Model.ControllerName - Action: @Model.ActionName</h1>
+        <h1 class="text-danger">Hata Detayı: @Model.Exception.Message</h1>
+    </hgroup>
+</body>
+</html>

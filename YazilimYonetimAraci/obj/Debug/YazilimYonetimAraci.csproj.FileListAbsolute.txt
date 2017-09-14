@@ -1,0 +1,212 @@
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ApplicationInsights.config
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\csc.exe
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\vbc.exe
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\VBCSCompiler.exe
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.dll.config
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.pdb
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Antlr3.Runtime.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.SqlServer.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Web.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Newtonsoft.Json.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Helpers.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Mvc.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Optimization.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Razor.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Razor.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\WebGrease.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.SqlServer.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Web.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Helpers.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Mvc.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Optimization.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Razor.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Razor.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Antlr3.Runtime.pdb
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Newtonsoft.Json.xml
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.pdb
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.csprojResolveAssemblyReference.cache
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.SqlServer.Types.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\RdlCompile.cache
+C:\Users\ebakirmak\Desktop\YAZILIM SINAMA\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\RdlCompile.compiled
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ApplicationInsights.config
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\csc.exe
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\vbc.exe
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\VBCSCompiler.exe
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.dll.config
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.pdb
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Antlr3.Runtime.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.SqlServer.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Web.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Newtonsoft.Json.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Helpers.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Mvc.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Optimization.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Razor.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Razor.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\WebGrease.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.SqlServer.Types.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.SqlServer.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Web.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Helpers.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Mvc.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Optimization.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Razor.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Razor.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Antlr3.Runtime.pdb
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Newtonsoft.Json.xml
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.csprojResolveAssemblyReference.cache
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\RdlCompile.cache
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\RdlCompile.compiled
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.dll
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.pdb
+C:\Users\ebakirmak\Desktop\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Rotativa.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ApplicationInsights.config
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\csc.exe
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\System.Collections.Immutable.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\System.Reflection.Metadata.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\vbc.exe
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\VBCSCompiler.exe
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\roslyn\VBCSCompiler.exe.config
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.dll.config
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\YazilimYonetimAraci.pdb
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Antlr3.Runtime.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.SqlServer.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Agent.Intercept.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.DependencyCollector.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Web.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.WindowsServer.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.ApplicationInsights.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.Web.Infrastructure.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Newtonsoft.Json.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Rotativa.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Helpers.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Mvc.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Optimization.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Razor.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Deployment.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Razor.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\WebGrease.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.SqlServer.Types.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\EntityFramework.SqlServer.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.DependencyCollector.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.Web.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.AI.WindowsServer.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.ApplicationInsights.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Helpers.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Mvc.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Optimization.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.Razor.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Deployment.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\System.Web.WebPages.Razor.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Antlr3.Runtime.pdb
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\Newtonsoft.Json.xml
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.csprojResolveAssemblyReference.cache
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.dll
+D:\BELGELER\Dersler\5.YARIYIL\SoftwareTesting\Projects\PROJE ÖDEVİ\142802027_142802013\YazilimSinamaMVC\YazilimYonetimAraci\YazilimYonetimAraci\obj\Debug\YazilimYonetimAraci.pdb

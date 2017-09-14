@@ -1,0 +1,51 @@
+﻿@model IEnumerable<YazilimYonetimAraci.Models.ModelWorkFollow>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="divEkle">
+    <a href="@Url.Action("Create")"><i class="fa fa-plus-circle fa-2x"></i><div id="idEkle" style="margin-bottom:30px;">İş Detayı</div></a>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.WorkName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FinishDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CompleteRate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.WorkName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FinishDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompleteRate)
+            </td>
+           
+        </tr>
+      
+
+    }
+
+   
+</table>
+
+@Html.ActionLink("Süreçlere Dön", "Index", "Process", new { ProjectID = @ViewBag.ProjectID }, null)

@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <link href="~/Scripts/TemplateJS/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+    <link href="~/Scripts/TemplateJS/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <script src="~/Scripts/TemplateJS/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/TemplateJS/bootstrap.min.js"></script>
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div class="blackPanel" style="">
+
+    </div>
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="@Url.Action("Index", "Project")">ODEBA</a>
+
+            </div>
+
+
+
+            <div style="color: white;
+padding: 15px 50px 5px 50px;
+float: right; font-size: 16px;">
+                @*Son Giriş :<span id="SonGiris"></span>&nbsp;
+                <a href="@Url.Action("Settings","Admin")" class="btn btn-info square-btn-adjust"><i class="fa fa-wrench fa-x"></i> &nbsp; Ayarlar</a>&nbsp;*@
+                <a href="@Url.Action("LogOut","User")" class="btn btn-info square-btn-adjust"><i class="fa fa-sign-out fa-x"></i> &nbsp; ÇIKIŞ</a>
+            </div>
+
+        </nav>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li class="text-center">
+
+                        <img src="~/images/find_user.png" class="user-image img-responsive" id="" />
+                        <div style="color:white;font-size:medium;margin-bottom:20px;" id="userNameSurname">Index</div>
+                        <div style="color:white;font-size:medium;margin-bottom:20px;" id="userRole">Index</div>
+                    </li>
+                    <li>
+                        @{
+                            if (ViewBag.Active == "Projeler")
+                            {
+                                <a id="AnaSayfa" href="@Url.Action("Index","Project")" class="active-menu"><i class="fa fa-home fa-3x"></i>Projeler</a>
+                            }
+                            else
+                            {
+                                <a id="AnaSayfa" href="@Url.Action("Index","Project")"><i class="fa fa-home fa-3x"></i>Projeler</a>
+                            }
+
+                        }
+
+                    </li>
+                    <li>
+                        @{
+                            if (ViewBag.Active == "Rol")
+                            {
+                                <a href="@Url.Action("Index","UserRoles")" class="active-menu"><i class="fa fa-sitemap fa-3x"></i>Rol Yönetimi</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Index","UserRoles")"><i class="fa fa-sitemap fa-3x"></i>Rol Yönetimi</a>
+                            }
+                        }
+
+                    </li>
+
+                    @*<li>
+                        @{
+                            if (ViewBag.Active == "Sayfa")
+                            {
+                                <a href="@Url.Action("Index","Page")" class="active-menu">&nbsp;&nbsp;<i class="fa fa-file-text-o fa-3x"></i> Sayfa Yönetimi</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Index","Page")"> &nbsp;&nbsp;<i class="fa fa-file-text-o fa-3x"></i>  Sayfa Yönetimi</a>
+                            }
+                        }
+
+                    </li>
+
+                    <li>
+
+                        @{
+                            if (ViewBag.Active == "Urun")
+                            {
+                                <a href="@Url.Action("Index","Urun")" class="active-menu"><i class="fa fa-flask fa-3x"> </i>&nbsp; Ürün Yönetimi</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Index","Urun")"><i class="fa fa-flask fa-3x"> </i>&nbsp; Ürün Yönetimi</a>
+                            }
+                        }
+
+                    </li>
+                    <li>
+                        @{
+                            if (ViewBag.Active == "Slider")
+                            {
+                                <a href="@Url.Action("Index","Slider")" class="active-menu"><i class="fa fa-desktop fa-3x"></i>Slider Yönetimi</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Index","Slider")"><i class="fa fa-desktop fa-3x"></i>Slider Yönetimi</a>
+                            }
+                        }
+
+                    </li>
+                    <li>
+                        @{
+                            if (ViewBag.Active == "Haber")
+                            {
+                                <a href="@Url.Action("Index","Haber")" class="active-menu"><i class="fa fa-newspaper-o fa-3x"></i>&nbsp;Haber Yönetimi</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Index","Haber")"><i class="fa fa-newspaper-o fa-3x"></i>Haber Yönetimi</a>
+                            }
+                        }
+                    </li>
+                    <li>
+                        <a href="GaleriYonetim.html"><i class="fa fa-picture-o fa-3x"></i> Galeri Yönetimi</a>
+                    </li>*@
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+
+
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <h2 style="color:black;margin-left:5px">
+                            <i class="fa fa-cogs fa-2x"></i> <b>
+                              ODEBA YAZILIM PROJESİ YÖNETİM PANELİ
+                            </b>
+
+                        </h2>
+
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel back-dash">                          
+                            <ol class="breadcrumb">
+                                <li>@ViewBag.Menu</li>
+                                <li class="active">@ViewBag.Islem</li>
+                                
+                            </ol>
+                            <p class="text-muted">
+                                @RenderBody()
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                @*<div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="panel panel-back noti-box">
+                            <span class="icon-box bg-color-red set-icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </span>
+
+                            <div class="text-box">
+                                <p class="main-text">Maile Git</p>
+                                <p class="text-muted">E-Posta Servisi</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="panel panel-back noti-box">
+                            <span class="icon-box bg-color-green set-i	con">
+                                <i class="fa fa-bars"></i>
+                            </span>
+                            <div class="text-box">
+                                <p class="main-text">Duyuru</p>
+                                <p class="text-muted">Remaining</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="panel panel-back noti-box">
+                            <span class="icon-box bg-color-blue set-icon">
+                                <i class="fa fa-bell-o"></i>
+                            </span>
+                            <div class="text-box">
+                                <p class="main-text">240 New</p>
+                                <p class="text-muted">Notifications</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="panel panel-back noti-box">
+                            <span class="icon-box bg-color-brown set-icon">
+                                <i class="fa fa-rocket"></i>
+                            </span>
+
+                            <div class="text-box">
+
+                                <a href="@Url.Action("Index","Portal")" class="main-text" target="_blank">Siteye Git</a>
+                                <p class="text-muted">Önizleme</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>*@
+                <!-- /. ROW  -->
+                <div class="copy-right">
+
+                    <p>Copyright &copy; 2016 <a href="" target="_blank">ODEBA</a> Her hakkı saklıdır.</p>
+
+                </div>
+
+                <!-- /. ROW  -->
+                <!-- /. ROW  -->
+                <!-- /. ROW  -->
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+
+    
+
+    <script src="~/Scripts/AppScripts/JSMainPage.js"></script>
+    <script src="~/Scripts/TemplateJS/dataTables/jquery.dataTables.js"></script>
+    <script src="~/Scripts/TemplateJS/dataTables/dataTables.bootstrap.js"></script>
+    <script src="~/Scripts/TemplateJS/jquery.metisMenu.js"></script>
+    <script src="~/Scripts/TemplateJS/morris/raphael-2.1.0.min.js"></script>
+    <script src="~/Scripts/TemplateJS/morris/morris.js"></script>
+    <script src="~/Scripts/TemplateJS/custom.js"></script>
+
+
+ 
+  
+ 
+    @RenderSection("scripts", required: false)
+</body>
+</html>

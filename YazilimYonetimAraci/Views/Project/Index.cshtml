@@ -1,0 +1,103 @@
+﻿@model IEnumerable<YazilimYonetimAraci.Models.ModelProject>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style type="text/css">
+     .Project{
+        font-weight: bold;
+        font-size:17px;
+    }
+</style>
+
+@if (Session["RoleID"].ToString() == "1")
+{
+    @*<p>
+        @Html.ActionLink("Proje Ekle", "Create")       
+    </p>*@
+    <div class="divEkle">
+        <a href="@Url.Action("Create")"><i class="fa fa-plus-circle fa-2x"></i><div id="idEkle">Proje Ekle</div></a>            
+    </div>
+    
+}
+
+    <div class="table-responsive" style="margin-top:10px;">
+        <table class="table table-hover">
+            <thead>
+                <tr class="success">
+                    <th>
+                        @Html.DisplayNameFor(model => model.ProjectName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StartDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FinishDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.isActive)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Budget)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="Project">
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProjectName)
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StartDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FinishDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.isActiveString)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Budget)
+                        </td>
+                        <td>
+                            @if (Session["RoleID"].ToString() == "1")
+                            {
+                                if (item.isActive == true)
+                                {
+                                    <a href="@Url.Action("Edit", "Project", new { ProjectID = item.ProjectID })" title="Düzenle"><i style="font-size:28px;color:yellowgreen;" class="fa fa-edit"></i></a>
+                                }
+
+                                <a href="@Url.Action("Index", "Process", new { ProjectID = item.ProjectID })" title="Süreçler"><i style="font-size:28px;color:darkgoldenrod;" class="fa fa-file-text-o"></i></a>
+                                if (item.isActive == true)
+                                {
+                                    <a href="@Url.Action("Delete", "Project", new { ProjectID = item.ProjectID })" title="Sil"><i style="font-size:28px;color:red;" class="fa fa-times"></i></a>
+                                }
+
+
+                                @*@Html.ActionLink("Düzenle | ", "Edit", new { ProjectID = item.ProjectID });
+                                @Html.ActionLink("Süreçler | ", "Index", "Process", new { ProjectID = item.ProjectID }, null);
+                                @Html.ActionLink("Sil | ", "Delete", new { /* id=item.PrimaryKey */ });*@
+                            }
+                            else if (Session["RoleID"].ToString() == "2")
+                            {
+                                @Html.ActionLink("Süreçler", "Index", "Process", new { ProjectID = item.ProjectID }, null);
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Süreçler", "Index", "Process", new { ProjectID = item.ProjectID }, null);
+                            }
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+
+        </table>
+    </div>

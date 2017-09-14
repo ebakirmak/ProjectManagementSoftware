@@ -1,0 +1,320 @@
+﻿@model YazilimYonetimAraci.Models.ModelListWorkFollow
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>@Html.LabelFor(model => model.AnalizWorkFollow.UserID, htmlAttributes: new { @class = "control-label col-md-12", @style = "text-align:center" })</th>
+                    <th>@Html.LabelFor(model => model.AnalizWorkFollow.StartDate, htmlAttributes: new { @class = "control-label col-md-12", @style = "text-align:center" })</th>
+                    <th>@Html.LabelFor(model => model.AnalizWorkFollow.FinishDate, htmlAttributes: new { @class = "control-label col-md-12", @style = "text-align:center" })</th>
+                    <th>@Html.LabelFor(model => model.AnalizWorkFollow.CompleteRate, htmlAttributes: new { @class = "control-label col-md-12", @style = "text-align:center" })</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Analiz</td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(model => model.AnalizWorkFollow.UserID, new[] { new SelectListItem { Text = "Boş", Value = "0" } }, new { @class = "form-control", @id = "AnalizUserID" })
+                                @Html.ValidationMessageFor(model => model.AnalizWorkFollow.UserID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.AnalizWorkFollow.StartDate, new
+                           {
+                               htmlAttributes = new
+                               {
+                                   @class = "form-control"@*, @name = "AnalizStartDate"*@,
+                                   @id = "AnalizStartDate"
+                               }
+                           })
+                                @Html.ValidationMessageFor(model => model.AnalizWorkFollow.StartDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.AnalizWorkFollow.FinishDate, new
+                           {
+                               htmlAttributes = new
+                               {
+                                   @class = "form-control"@*, @name = "AnalizFinishDate"*@,
+                                   @id = "AnalizFinishDate"
+                               }
+                           })
+                                @Html.ValidationMessageFor(model => model.AnalizWorkFollow.FinishDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(model => model.AnalizWorkFollow.CompleteRate, new { @class = "form-control", @name = "AnalizCompleteRate", value = "0", text = "0" })
+                                @Html.ValidationMessageFor(model => model.AnalizWorkFollow.CompleteRate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Ekle" class="btn btn-primary btn-lg" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Table</td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(model => model.TableWorkFollow.UserID, new[] { new SelectListItem { Text = "Boş", Value = "0" } }, new { @class = "form-control", @id = "TableUserID" })
+                                @Html.ValidationMessageFor(model => model.TableWorkFollow.UserID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.TableWorkFollow.StartDate, new { htmlAttributes = new { @class = "form-control", @name = "TableStartdDate" } })
+                                @Html.ValidationMessageFor(model => model.TableWorkFollow.StartDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.TableWorkFollow.FinishDate, new { htmlAttributes = new { @class = "form-control", @name = "TableFinishDate" } })
+                                @Html.ValidationMessageFor(model => model.TableWorkFollow.FinishDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(model => model.TableWorkFollow.CompleteRate, new { @class = "form-control", @name = "TableCompleteRate" })
+                                @Html.ValidationMessageFor(model => model.TableWorkFollow.CompleteRate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Ekle" class="btn btn-primary btn-lg" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Procedure</td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(model => model.ProcedureWorkFollow.UserID, new[] { new SelectListItem { Text = "Boş", Value = "0" } }, new { @class = "form-control", @id = "ProcedureUserID" })
+                                @Html.ValidationMessageFor(model => model.ProcedureWorkFollow.UserID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.ProcedureWorkFollow.StartDate, new { htmlAttributes = new { @class = "form-control", @name = "ProcedureStartdDate" } })
+                                @Html.ValidationMessageFor(model => model.ProcedureWorkFollow.StartDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.ProcedureWorkFollow.FinishDate, new { htmlAttributes = new { @class = "form-control", @name = "ProcedureFinishDate" } })
+                                @Html.ValidationMessageFor(model => model.ProcedureWorkFollow.FinishDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(model => model.ProcedureWorkFollow.CompleteRate, new { @class = "form-control", @name = "ProcedureCompleteRate" })
+                                @Html.ValidationMessageFor(model => model.ProcedureWorkFollow.CompleteRate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Ekle" class="btn btn-primary btn-lg" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DLL List</td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(model => model.DllListWorkFollow.UserID, new[] { new SelectListItem { Text = "Boş", Value = "0" } }, new { @class = "form-control", @id = "DllListUserID" })
+                                @Html.ValidationMessageFor(model => model.DllListWorkFollow.UserID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.DllListWorkFollow.StartDate, new { htmlAttributes = new { @class = "form-control", @name = "DllListStartdDate" } })
+                                @Html.ValidationMessageFor(model => model.DllListWorkFollow.StartDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.DllListWorkFollow.FinishDate, new { htmlAttributes = new { @class = "form-control", @name = "DllListFinishDate" } })
+                                @Html.ValidationMessageFor(model => model.DllListWorkFollow.FinishDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(model => model.DllListWorkFollow.CompleteRate, new { @class = "form-control", @name = "DllListCompleteRate" })
+                                @Html.ValidationMessageFor(model => model.DllListWorkFollow.CompleteRate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Ekle" class="btn btn-primary btn-lg" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Arayüz</td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(model => model.FrontWorkFollow.UserID, new[] { new SelectListItem { Text = "Boş", Value = "0" } }, new { @class = "form-control", @id = "ArayüzUserID" })
+                                @Html.ValidationMessageFor(model => model.FrontWorkFollow.UserID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.FrontWorkFollow.StartDate, new { htmlAttributes = new { @class = "form-control", @name = "ArayüzStartdDate" } })
+                                @Html.ValidationMessageFor(model => model.FrontWorkFollow.StartDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.FrontWorkFollow.FinishDate, new { htmlAttributes = new { @class = "form-control", @name = "ArayüzFinishDate" } })
+                                @Html.ValidationMessageFor(model => model.FrontWorkFollow.FinishDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(model => model.FrontWorkFollow.CompleteRate, new { @class = "form-control", @name = "ArayüzCompleteRate" })
+                                @Html.ValidationMessageFor(model => model.FrontWorkFollow.CompleteRate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Ekle" class="btn btn-primary btn-lg" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Test</td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(model => model.TestWorkFollow.UserID, new[] { new SelectListItem { Text = "Boş", Value = "0" } }, new { @class = "form-control", @id = "TestUserID" })
+                                @Html.ValidationMessageFor(model => model.TestWorkFollow.UserID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.TestWorkFollow.StartDate, new { htmlAttributes = new { @class = "form-control", @name = "TestStartdDate" } })
+                                @Html.ValidationMessageFor(model => model.TestWorkFollow.StartDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.TestWorkFollow.FinishDate, new { htmlAttributes = new { @class = "form-control", @name = "TestFinishDate" } })
+                                @Html.ValidationMessageFor(model => model.TestWorkFollow.FinishDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                @Html.TextBoxFor(model => model.TestWorkFollow.CompleteRate, new { @class = "form-control", @name = "TestCompleteRate" })
+                                @Html.ValidationMessageFor(model => model.TestWorkFollow.CompleteRate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        @*<div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Ekle" class="btn btn-primary btn-lg" />
+                            </div>
+                        </div>*@
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <button type="submit" value="Ekle" class="btn btn-primary btn-lg">EKLE</button>
+                            </div>
+                            @ViewBag.Hata
+                            @ViewBag.Tarih
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+}
+
+<div>
+    @Html.ActionLink("İş Detaylarına Dön", "Index", new {ProcessID=ViewBag.ProcessID, ProjectID = @ViewBag.ProjectID }, null)
+    @Html.ActionLink("Süreçlere Dön", "Index", "Process", new { ProjectID = @ViewBag.ProjectID }, null)
+</div>
+<script src="~/Scripts/AppScripts/JSWorkFollow.js"></script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}

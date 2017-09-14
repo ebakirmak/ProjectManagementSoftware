@@ -1,0 +1,93 @@
+﻿@model YazilimYonetimAraci.Models.ModelUser
+
+@{
+    ViewBag.Title = "Site ismi - Giriş Yap";
+    Layout = null;
+}
+<!--******************************-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Panel Girişi</title>
+    <meta charset="utf-8">
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--webfonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <!--//webfonts-->
+
+</head>
+<body>
+
+    <!-----start-main---->
+    <div class="login-form ">
+        <div class="head" >
+           
+            <img src="~/images/Logo.png" title="ODEBA" style="margin-left:50px" alt="ODEBA LOGO" width="200" height="80" />
+            
+        </div>
+       <div class="row">
+           <div id="idForm">
+               @using (Html.BeginForm())
+            {
+                   @Html.AntiForgeryToken()
+                   <ul>
+
+                       <li>
+                           <div class="form-group">
+                               <div class="col-md-10">
+                                   @Html.EditorFor(model => model.UserNickname, new { htmlAttributes = new { @class = "form-control text", @type = "text", @placeholder = "Kullanıcı NickName" } })
+                                   <i class="icon user"></i>
+                                   @Html.ValidationMessageFor(model => model.UserNickname, "", new { @class = "text-danger" })
+                               </div>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="form-group">
+                               <div class="col-md-10">
+                                   @Html.EditorFor(model => model.UserPassword, new { htmlAttributes = new { @class = "form-control" } })
+                                   <i class="icon lock"></i>
+                                   @Html.ValidationMessageFor(model => model.UserPassword, "", new { @class = "text-danger" })
+                               </div>
+                           </div>
+                       </li>
+                      
+                       <li>
+                           <div class="form-group">
+                               <div class="col-md-offset-2 col-md-10">
+                                   <input type="submit" value="Giriş Yap" class="btn btn-default" />
+
+                               </div>
+                           </div>
+                       </li>
+                       
+                   </ul>
+                  
+                  
+                <div class="form-group">
+                    @*@Html.ActionLink("Kayıt Ol", "SignUp")*@
+                    <div>@ViewBag.Mesaj</div><div class="clear"> </div>
+                </div>
+                   @section Scripts {
+                       @Scripts.Render("~/bundles/jqueryval")
+                   }
+               }
+           </div>
+
+       </div>
+      
+    </div>
+    <!--//End-login-form-->
+    <!-----start-copyright---->
+    <div class="copy-right">
+
+        <p>Copyright &copy; 2016 <a href="" target="_blank">ODEBA</a> Her hakkı saklıdır.</p>
+
+    </div>
+    <!-----//end-copyright---->
+ 
+</body>
+</html>

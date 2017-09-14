@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YazilimYonetimAraciModelStoreContainer" CdmEntityContainer="YazilimYonetimAraciEntities">
+    <EntitySetMapping Name="tblPriorityName">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblPriorityName">
+        <MappingFragment StoreEntitySet="tblPriorityName">
+          <ScalarProperty Name="PriorityID" ColumnName="PriorityID" />
+          <ScalarProperty Name="PriorityName" ColumnName="PriorityName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProcess">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblProcess">
+        <MappingFragment StoreEntitySet="tblProcess">
+          <ScalarProperty Name="ProcessID" ColumnName="ProcessID" />
+          <ScalarProperty Name="ProcessName" ColumnName="ProcessName" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="CompleteRate" ColumnName="CompleteRate" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Descriptions" ColumnName="Descriptions" />
+          <ScalarProperty Name="ProcessManagerID" ColumnName="ProcessManagerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProjects">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblProjects">
+        <MappingFragment StoreEntitySet="tblProjects">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="Budget" ColumnName="Budget" />
+          <ScalarProperty Name="ProjectOwnerID" ColumnName="ProjectOwnerID" />
+          <ScalarProperty Name="ProjectManagerID" ColumnName="ProjectManagerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRoleNames">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblRoleNames">
+        <MappingFragment StoreEntitySet="tblRoleNames">
+          <ScalarProperty Name="RoleNameID" ColumnName="RoleNameID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUserLogDetails">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblUserLogDetails">
+        <MappingFragment StoreEntitySet="tblUserLogDetails">
+          <ScalarProperty Name="UserLogDetailsID" ColumnName="UserLogDetailsID" />
+          <ScalarProperty Name="UserLogsID" ColumnName="UserLogsID" />
+          <ScalarProperty Name="UserLogName" ColumnName="UserLogName" />
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUserLogs">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblUserLogs">
+        <MappingFragment StoreEntitySet="tblUserLogs">
+          <ScalarProperty Name="UserLogsID" ColumnName="UserLogsID" />
+          <ScalarProperty Name="UserLogDetailsID" ColumnName="UserLogDetailsID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUserProcess">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblUserProcess">
+        <MappingFragment StoreEntitySet="tblUserProcess">
+          <ScalarProperty Name="UserProcessID" ColumnName="UserProcessID" />
+          <ScalarProperty Name="UsersID" ColumnName="UsersID" />
+          <ScalarProperty Name="ProcessID" ColumnName="ProcessID" />
+          <ScalarProperty Name="UserRolesID" ColumnName="UserRolesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUserRoles">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblUserRoles">
+        <MappingFragment StoreEntitySet="tblUserRoles">
+          <ScalarProperty Name="UserRolesID" ColumnName="UserRolesID" />
+          <ScalarProperty Name="UsersID" ColumnName="UsersID" />
+          <ScalarProperty Name="RoleNameID" ColumnName="RoleNameID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUsers">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblUsers">
+        <MappingFragment StoreEntitySet="tblUsers">
+          <ScalarProperty Name="UsersID" ColumnName="UsersID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserSurname" ColumnName="UserSurname" />
+          <ScalarProperty Name="UserNickname" ColumnName="UserNickname" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserCreatedDate" ColumnName="UserCreatedDate" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWorkFollow">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblWorkFollow">
+        <MappingFragment StoreEntitySet="tblWorkFollow">
+          <ScalarProperty Name="WorkFollowID" ColumnName="WorkFollowID" />
+          <ScalarProperty Name="ProcessID" ColumnName="ProcessID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+          <ScalarProperty Name="WorkFollowDetailsID" ColumnName="WorkFollowDetailsID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="CompleteRate" ColumnName="CompleteRate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWorkFollowDetails">
+      <EntityTypeMapping TypeName="YazilimYonetimAraciModel.tblWorkFollowDetails">
+        <MappingFragment StoreEntitySet="tblWorkFollowDetails">
+          <ScalarProperty Name="WorkFollowDetailsID" ColumnName="WorkFollowDetailsID" />
+          <ScalarProperty Name="WorkFollowName" ColumnName="WorkFollowName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

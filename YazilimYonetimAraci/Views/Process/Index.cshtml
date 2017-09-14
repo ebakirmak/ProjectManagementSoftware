@@ -1,0 +1,214 @@
+﻿@model IEnumerable<YazilimYonetimAraci.Models.ModelProcess>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style type="text/css">
+    .mainProcess{
+        font-weight: bold;
+        font-size:17px;
+    }
+    .process{
+        font-weight:normal;
+        font-size:15px;
+    }
+    .subProcess{
+        font-weight:lighter;
+        font-size:12px;
+    }
+</style>
+<p>
+    @{ try
+        {
+            int Rol = Convert.ToInt32(Session["RoleID"].ToString());
+            if (Rol == 2){
+                @*@Html.ActionLink("Process Ekle", "Create", new { ProjectID = ViewBag.ProjectID });*@
+                <div class="divEkle">
+                    <a href="@Url.Action("Create",new {ProjectID=ViewBag.ProjectID })"><i class="fa fa-plus-circle fa-2x"></i><div id="idEkle">Süreç Ekle</div></a>
+                </div>
+            }
+
+        }
+        catch (Exception ex)
+        {
+
+            throw ex;
+        }
+    }   
+</p>
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr class="success">
+
+                <th>
+                    @Html.DisplayNameFor(model => model.ProcessName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StartDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FinishDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CompleteRate)
+                </th>  
+                <th>
+                    @Html.DisplayNameFor(model => model.Priority)
+                </th>       
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int ID = 0;
+                foreach (var item in Model)
+               {
+                    <tr>
+                        <!--ANASÜREÇLER START-->
+                        @if (item.ParentID == 0)
+                        {
+                            ID = (int)item.ProcessID;
+
+                        <td class="mainProcess">
+                            <button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-minus"></span></button>
+                           <!--Subs-->
+                             @try
+                            {
+                                @Html.DisplayFor(modelItem => item.ProcessName, "MainProcess");
+                            }
+                            catch (Exception ex)
+                            {
+                                <div>@ex.ToString()</div>
+                                //throw ex;
+                            }
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StartDate)
+                        </td>
+                        <td class="mainProcess">
+                            @Html.DisplayFor(modelItem => item.FinishDate)
+                        </td>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.CompleteRate)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.PriorityString)
+                          
+                        </th>
+                        <!--ANASÜREÇLER FİNİSH-->
+                        }
+
+                        else if (item.ParentID == ID)
+                        {
+                         <!--SÜREÇLER START-->
+
+                        <td class="process">
+                            <div style="margin-left:35px">@Html.DisplayFor(modelItem => item.ProcessName)</div>
+                        </td>
+                        <td class="process">
+                            @Html.DisplayFor(modelItem => item.StartDate)
+                        </td>
+                        <td class="process">
+                            @Html.DisplayFor(modelItem => item.FinishDate)
+                        </td>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.CompleteRate)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.PriorityString)
+                        </th>
+                        @*<td>
+                                @Html.ActionLink("Düzenle", "Edit", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Detaylar", "Details", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Sil", "Delete", new { /* id=item.PrimaryKey */ })
+                            </td>*@
+                              <!--SÜREÇLER FİNİSH-->
+                        }
+                        else
+                        {
+                              <!--ALT SÜREÇLER START-->
+                        <td class="subProcess">
+                            <div style="margin-left:50px">@Html.DisplayFor(modelItem => item.ProcessName)</div>
+                        </td>
+                        <td class="subProcess">
+                            @Html.DisplayFor(modelItem => item.StartDate)
+                        </td>
+                        <td class="subProcess">
+                            @Html.DisplayFor(modelItem => item.FinishDate)
+                        </td>
+                        <td class="subProcess">
+                            @Html.DisplayFor(modelItem => item.CompleteRate)
+                        </td>
+                        <td class="subProcess">
+                            @Html.DisplayFor(modelItem => item.Priority)
+
+                        </td>
+                        @*<td>
+                                @Html.ActionLink("Düzenle", "Edit", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Detaylar", "Details", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Sil", "Delete", new { /* id=item.PrimaryKey */ })
+                            </td>*@
+                              <!--ALT SÜREÇLER FİNİSH-->
+                        }
+
+                        <td>
+                            @{ try
+                                {
+                                    int Rol = Convert.ToInt32(Session["RoleID"].ToString());
+                                    if (Rol == 1)
+                                    {
+                                         <a href="@Url.Action("Index", "WorkFollow",new {ProcessID=item.ProcessID,ProjectID = item.ProjectID })" title="İş Detayları"><i style="font-size:28px;color:darkgoldenrod;" class="fa fa-file-text-o"></i></a>
+                                        <a href="@Url.Action("Index", "WorkFollow",new {ProcessID=item.ProcessID,ProjectID = item.ProjectID })" title="İş Detayları Yazdır"><i style="font-size:28px;color:darkgoldenrod;" class="fa fa-print"></i></a>
+
+                                    }
+                                    if (Rol == 2)
+                                    {<a href="@Url.Action("Edit", "Process", new { ProcessID = item.ProcessID })" title="Düzenle"><i style="font-size:28px;color:yellowgreen;" class="fa fa-edit"></i></a>
+
+
+
+                                    <a href="@Url.Action("Index", "WorkFollow",new {ProcessID=item.ProcessID,ProjectID = item.ProjectID })" title="İş Detayları"><i style="font-size:28px;color:darkgoldenrod;" class="fa fa-file-text-o"></i></a>
+                                    <a href="@Url.Action("Index", "WorkFollow",new {ProcessID=item.ProcessID,ProjectID = item.ProjectID })" title="İş Detayları Yazdır"><i style="font-size:28px;color:darkgoldenrod;" class="fa fa-print"></i></a>
+                                        <a href="@Url.Action("Delete", "Process", new { ProcessID = item.ProcessID })" title="Sil"><i style="font-size:28px;color:red;" class="fa fa-times"></i></a>
+                                        @*@Html.ActionLink("Düzenle", "Edit", new { /* id=item.PrimaryKey */ }); <span>|</span>
+                                        @Html.ActionLink("İş Detayları", "Details", new { /* id=item.PrimaryKey */ }); <span>|</span>
+                                        @Html.ActionLink("Sil", "Delete", new { /* id=item.PrimaryKey */ });*@
+                                    }
+                                    else if (Rol == 3)
+                                    {              <a href="@Url.Action("Edit", "Project", new { ProjectID = item.ProjectID })" title="Düzenle"><i style="font-size:28px;color:yellowgreen;" class="fa fa-edit"></i></a>
+                                    <a href="@Url.Action("Index", "WorkFollow",new {ProcessID=item.ProcessID,ProjectID = item.ProjectID })" title="İş Detayları"><i style="font-size:28px;color:darkgoldenrod;" class="fa fa-file-text-o"></i></a>
+                                    <a href="@Url.Action("Index", "WorkFollow",new {ProcessID=item.ProcessID,ProjectID = item.ProjectID })" title="İş Detayları Yazdır"><i style="font-size:28px;color:darkgoldenrod;" class="fa fa-print"></i></a>
+                                        <a href="@Url.Action("Delete", "Project", new { ProjectID = item.ProjectID })" title="Sil"><i style="font-size:28px;color:red;" class="fa fa-times"></i></a>
+                                        @*@Html.ActionLink("İş Detayları", "Details", new { /* id=item.PrimaryKey */ });*@
+                                    }
+                                    else
+                                    {
+
+                                  
+
+                                    }
+
+                                }
+                                catch (Exception ex)
+                                {
+
+                                    throw ex;
+                                }
+                            }
+                          
+                        </td>
+
+                        
+                    </tr>
+                    }
+                }
+
+
+        </tbody>
+
+    </table>
+   
+    @Html.ActionLink("Projelere Dön", "Index", "Project")
+</div>

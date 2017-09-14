@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8f04ca82c52a426abd491518f904d646" Name="Diagram1">
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblProcess" Width="1.5" PointX="5.25" PointY="7" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblProjects" Width="1.5" PointX="3" PointY="6.5" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblRoleNames" Width="1.5" PointX="0.75" PointY="12.875" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblUserLogDetails" Width="1.5" PointX="5.25" PointY="18.5" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblUserLogs" Width="1.5" PointX="3" PointY="18.5" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblUserProcess" Width="1.5" PointX="7.5" PointY="12.125" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblUserRoles" Width="1.5" PointX="3" PointY="11.5" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblUsers" Width="1.5" PointX="0.75" PointY="7.625" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblWorkFollow" Width="1.5" PointX="7.5" PointY="7.875" />
+        <EntityTypeShape EntityType="YazilimYonetimAraciModel.tblWorkFollowDetails" Width="1.5" PointX="5.25" PointY="4.5" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblProcess_tblUsers" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblProcessProcessID_tblUserProcessProcessID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblProcessProcessID_WorkFollowProcessID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblProjectsProjectID_tblProcessProjectID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblProjects_tblUsers" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblProjects_tblUsers1" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUsersUsersID__tblProjectProjectManagerID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUsersUsersID__tblProjectProjectOwnerID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUserRoles_tblRoleNames" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUsersUsersID_tblUserLogsUserID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUsersUsersID_tblUserProcessUsersID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUserRoles_tblUsers" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblUsersUserID_WorkFollowUserID" />
+        <AssociationConnector Association="YazilimYonetimAraciModel.FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

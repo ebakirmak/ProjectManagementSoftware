@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YazilimYonetimAraci", "YazilimYonetimAraci\YazilimYonetimAraci.csproj", "{D8885A95-99CC-4A5D-A478-136FE3AED534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteBoxTesting", "WhiteBoxTesting\WhiteBoxTesting.csproj", "{500F31EF-A3A0-4275-B957-2781C986375D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8885A95-99CC-4A5D-A478-136FE3AED534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8885A95-99CC-4A5D-A478-136FE3AED534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8885A95-99CC-4A5D-A478-136FE3AED534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8885A95-99CC-4A5D-A478-136FE3AED534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500F31EF-A3A0-4275-B957-2781C986375D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500F31EF-A3A0-4275-B957-2781C986375D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500F31EF-A3A0-4275-B957-2781C986375D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500F31EF-A3A0-4275-B957-2781C986375D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+#editorKaydet {
+    position:absolute;
+    z-index:20;
+    right:8px;
+    top:53px;
+    font-size:20px;
+    cursor:pointer;
+    
+    padding:7px;
+}
+#editorKaydet:hover{
+    background-color:rgba(214, 214, 214, 0.48);
+}
+
+#editorPencere{
+    
+    background-color:rgba(214, 214, 214, 0.77);
+    padding-top:10px;
+}
+#sayfaBaslik{
+    position:absolute;
+    left:20px;
+
+}

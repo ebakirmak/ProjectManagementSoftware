@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YazilimYonetimAraciModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="YazilimYonetimAraciEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblProcess" EntityType="YazilimYonetimAraciModel.tblProcess" />
+    <EntitySet Name="tblProjects" EntityType="YazilimYonetimAraciModel.tblProjects" />
+    <EntitySet Name="tblRoleNames" EntityType="YazilimYonetimAraciModel.tblRoleNames" />
+    <EntitySet Name="tblUserLogDetails" EntityType="YazilimYonetimAraciModel.tblUserLogDetails" />
+    <EntitySet Name="tblUserLogs" EntityType="YazilimYonetimAraciModel.tblUserLogs" />
+    <EntitySet Name="tblUserProcess" EntityType="YazilimYonetimAraciModel.tblUserProcess" />
+    <EntitySet Name="tblUserRoles" EntityType="YazilimYonetimAraciModel.tblUserRoles" />
+    <EntitySet Name="tblUsers" EntityType="YazilimYonetimAraciModel.tblUsers" />
+    <EntitySet Name="tblWorkFollow" EntityType="YazilimYonetimAraciModel.tblWorkFollow" />
+    <EntitySet Name="tblWorkFollowDetails" EntityType="YazilimYonetimAraciModel.tblWorkFollowDetails" />
+    <AssociationSet Name="FK_tblProcess_tblUsers" Association="YazilimYonetimAraciModel.FK_tblProcess_tblUsers">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblProcess" EntitySet="tblProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProcessProcessID_tblUserProcessProcessID" Association="YazilimYonetimAraciModel.FK_tblProcessProcessID_tblUserProcessProcessID">
+      <End Role="tblProcess" EntitySet="tblProcess" />
+      <End Role="tblUserProcess" EntitySet="tblUserProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProcessProcessID_WorkFollowProcessID" Association="YazilimYonetimAraciModel.FK_tblProcessProcessID_WorkFollowProcessID">
+      <End Role="tblProcess" EntitySet="tblProcess" />
+      <End Role="tblWorkFollow" EntitySet="tblWorkFollow" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProjectsProjectID_tblProcessProjectID" Association="YazilimYonetimAraciModel.FK_tblProjectsProjectID_tblProcessProjectID">
+      <End Role="tblProjects" EntitySet="tblProjects" />
+      <End Role="tblProcess" EntitySet="tblProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProjects_tblUsers" Association="YazilimYonetimAraciModel.FK_tblProjects_tblUsers">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblProjects" EntitySet="tblProjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblProjects_tblUsers1" Association="YazilimYonetimAraciModel.FK_tblProjects_tblUsers1">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblProjects" EntitySet="tblProjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersUsersID__tblProjectProjectManagerID" Association="YazilimYonetimAraciModel.FK_tblUsersUsersID__tblProjectProjectManagerID">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblProjects" EntitySet="tblProjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersUsersID__tblProjectProjectOwnerID" Association="YazilimYonetimAraciModel.FK_tblUsersUsersID__tblProjectProjectOwnerID">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblProjects" EntitySet="tblProjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUserRoles_tblRoleNames" Association="YazilimYonetimAraciModel.FK_tblUserRoles_tblRoleNames">
+      <End Role="tblRoleNames" EntitySet="tblRoleNames" />
+      <End Role="tblUserRoles" EntitySet="tblUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID" Association="YazilimYonetimAraciModel.FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID">
+      <End Role="tblUserLogs" EntitySet="tblUserLogs" />
+      <End Role="tblUserLogDetails" EntitySet="tblUserLogDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersUsersID_tblUserLogsUserID" Association="YazilimYonetimAraciModel.FK_tblUsersUsersID_tblUserLogsUserID">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblUserLogs" EntitySet="tblUserLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID" Association="YazilimYonetimAraciModel.FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID">
+      <End Role="tblUserRoles" EntitySet="tblUserRoles" />
+      <End Role="tblUserProcess" EntitySet="tblUserProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersUsersID_tblUserProcessUsersID" Association="YazilimYonetimAraciModel.FK_tblUsersUsersID_tblUserProcessUsersID">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblUserProcess" EntitySet="tblUserProcess" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUserRoles_tblUsers" Association="YazilimYonetimAraciModel.FK_tblUserRoles_tblUsers">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblUserRoles" EntitySet="tblUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblUsersUserID_WorkFollowUserID" Association="YazilimYonetimAraciModel.FK_tblUsersUserID_WorkFollowUserID">
+      <End Role="tblUsers" EntitySet="tblUsers" />
+      <End Role="tblWorkFollow" EntitySet="tblWorkFollow" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID" Association="YazilimYonetimAraciModel.FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID">
+      <End Role="tblWorkFollowDetails" EntitySet="tblWorkFollowDetails" />
+      <End Role="tblWorkFollow" EntitySet="tblWorkFollow" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tblProcess">
+    <Key>
+      <PropertyRef Name="ProcessID" />
+    </Key>
+    <Property Name="ProcessID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProcessName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ProjectID" Type="Int32" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="FinishDate" Type="DateTime" Precision="3" />
+    <Property Name="Duration" Type="Int32" />
+    <Property Name="CompleteRate" Type="Int32" />
+    <Property Name="Priority" Type="Int32" />
+    <Property Name="ParentID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Descriptions" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="ProjectManagerID" Type="Int32" />
+    <NavigationProperty Name="tblUsers" Relationship="YazilimYonetimAraciModel.FK_tblProcess_tblUsers" FromRole="tblProcess" ToRole="tblUsers" />
+    <NavigationProperty Name="tblUserProcess" Relationship="YazilimYonetimAraciModel.FK_tblProcessProcessID_tblUserProcessProcessID" FromRole="tblProcess" ToRole="tblUserProcess" />
+    <NavigationProperty Name="tblWorkFollow" Relationship="YazilimYonetimAraciModel.FK_tblProcessProcessID_WorkFollowProcessID" FromRole="tblProcess" ToRole="tblWorkFollow" />
+    <NavigationProperty Name="tblProjects" Relationship="YazilimYonetimAraciModel.FK_tblProjectsProjectID_tblProcessProjectID" FromRole="tblProcess" ToRole="tblProjects" />
+  </EntityType>
+  <EntityType Name="tblProjects">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="FinishDate" Type="DateTime" Precision="3" />
+    <Property Name="isActive" Type="Boolean" />
+    <Property Name="Budget" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ProjectOwnerID" Type="Int32" />
+    <Property Name="ProjectManagerID" Type="Int32" />
+    <NavigationProperty Name="tblProcess" Relationship="YazilimYonetimAraciModel.FK_tblProjectsProjectID_tblProcessProjectID" FromRole="tblProjects" ToRole="tblProcess" />
+    <NavigationProperty Name="tblUsers" Relationship="YazilimYonetimAraciModel.FK_tblProjects_tblUsers" FromRole="tblProjects" ToRole="tblUsers" />
+    <NavigationProperty Name="tblUsers1" Relationship="YazilimYonetimAraciModel.FK_tblProjects_tblUsers1" FromRole="tblProjects" ToRole="tblUsers" />
+    <NavigationProperty Name="tblUsers2" Relationship="YazilimYonetimAraciModel.FK_tblUsersUsersID__tblProjectProjectManagerID" FromRole="tblProjects" ToRole="tblUsers" />
+    <NavigationProperty Name="tblUsers3" Relationship="YazilimYonetimAraciModel.FK_tblUsersUsersID__tblProjectProjectOwnerID" FromRole="tblProjects" ToRole="tblUsers" />
+  </EntityType>
+  <EntityType Name="tblRoleNames">
+    <Key>
+      <PropertyRef Name="RoleNameID" />
+    </Key>
+    <Property Name="RoleNameID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblUserRoles" Relationship="YazilimYonetimAraciModel.FK_tblUserRoles_tblRoleNames" FromRole="tblRoleNames" ToRole="tblUserRoles" />
+  </EntityType>
+  <EntityType Name="tblUserLogDetails">
+    <Key>
+      <PropertyRef Name="UserLogDetailsID" />
+    </Key>
+    <Property Name="UserLogDetailsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserLogsID" Type="Int32" />
+    <Property Name="UserLogName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="LogDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tblUserLogs" Relationship="YazilimYonetimAraciModel.FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID" FromRole="tblUserLogDetails" ToRole="tblUserLogs" />
+  </EntityType>
+  <EntityType Name="tblUserLogs">
+    <Key>
+      <PropertyRef Name="UserLogsID" />
+    </Key>
+    <Property Name="UserLogsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserLogDetailsID" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="UserID" Type="Int32" />
+    <NavigationProperty Name="tblUserLogDetails" Relationship="YazilimYonetimAraciModel.FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID" FromRole="tblUserLogs" ToRole="tblUserLogDetails" />
+    <NavigationProperty Name="tblUsers" Relationship="YazilimYonetimAraciModel.FK_tblUsersUsersID_tblUserLogsUserID" FromRole="tblUserLogs" ToRole="tblUsers" />
+  </EntityType>
+  <EntityType Name="tblUserProcess">
+    <Key>
+      <PropertyRef Name="UserProcessID" />
+    </Key>
+    <Property Name="UserProcessID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UsersID" Type="Int32" />
+    <Property Name="ProcessID" Type="Int32" />
+    <Property Name="UserRolesID" Type="Int32" />
+    <NavigationProperty Name="tblProcess" Relationship="YazilimYonetimAraciModel.FK_tblProcessProcessID_tblUserProcessProcessID" FromRole="tblUserProcess" ToRole="tblProcess" />
+    <NavigationProperty Name="tblUserRoles" Relationship="YazilimYonetimAraciModel.FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID" FromRole="tblUserProcess" ToRole="tblUserRoles" />
+    <NavigationProperty Name="tblUsers" Relationship="YazilimYonetimAraciModel.FK_tblUsersUsersID_tblUserProcessUsersID" FromRole="tblUserProcess" ToRole="tblUsers" />
+  </EntityType>
+  <EntityType Name="tblUserRoles">
+    <Key>
+      <PropertyRef Name="UserRolesID" />
+    </Key>
+    <Property Name="UserRolesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UsersID" Type="Int32" />
+    <Property Name="RoleNameID" Type="Int32" />
+    <NavigationProperty Name="tblRoleNames" Relationship="YazilimYonetimAraciModel.FK_tblUserRoles_tblRoleNames" FromRole="tblUserRoles" ToRole="tblRoleNames" />
+    <NavigationProperty Name="tblUserProcess" Relationship="YazilimYonetimAraciModel.FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID" FromRole="tblUserRoles" ToRole="tblUserProcess" />
+    <NavigationProperty Name="tblUsers" Relationship="YazilimYonetimAraciModel.FK_tblUserRoles_tblUsers" FromRole="tblUserRoles" ToRole="tblUsers" />
+  </EntityType>
+  <EntityType Name="tblUsers">
+    <Key>
+      <PropertyRef Name="UsersID" />
+    </Key>
+    <Property Name="UsersID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserSurname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserNickname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserPassword" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserCreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="isActive" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tblProcess" Relationship="YazilimYonetimAraciModel.FK_tblProcess_tblUsers" FromRole="tblUsers" ToRole="tblProcess" />
+    <NavigationProperty Name="tblProjects" Relationship="YazilimYonetimAraciModel.FK_tblProjects_tblUsers" FromRole="tblUsers" ToRole="tblProjects" />
+    <NavigationProperty Name="tblProjects1" Relationship="YazilimYonetimAraciModel.FK_tblProjects_tblUsers1" FromRole="tblUsers" ToRole="tblProjects" />
+    <NavigationProperty Name="tblProjects2" Relationship="YazilimYonetimAraciModel.FK_tblUsersUsersID__tblProjectProjectManagerID" FromRole="tblUsers" ToRole="tblProjects" />
+    <NavigationProperty Name="tblProjects3" Relationship="YazilimYonetimAraciModel.FK_tblUsersUsersID__tblProjectProjectOwnerID" FromRole="tblUsers" ToRole="tblProjects" />
+    <NavigationProperty Name="tblUserLogs" Relationship="YazilimYonetimAraciModel.FK_tblUsersUsersID_tblUserLogsUserID" FromRole="tblUsers" ToRole="tblUserLogs" />
+    <NavigationProperty Name="tblUserProcess" Relationship="YazilimYonetimAraciModel.FK_tblUsersUsersID_tblUserProcessUsersID" FromRole="tblUsers" ToRole="tblUserProcess" />
+    <NavigationProperty Name="tblUserRoles" Relationship="YazilimYonetimAraciModel.FK_tblUserRoles_tblUsers" FromRole="tblUsers" ToRole="tblUserRoles" />
+    <NavigationProperty Name="tblWorkFollow" Relationship="YazilimYonetimAraciModel.FK_tblUsersUserID_WorkFollowUserID" FromRole="tblUsers" ToRole="tblWorkFollow" />
+  </EntityType>
+  <EntityType Name="tblWorkFollow">
+    <Key>
+      <PropertyRef Name="WorkFollowID" />
+    </Key>
+    <Property Name="WorkFollowID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProcessID" Type="Int32" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="FinishDate" Type="DateTime" Precision="3" />
+    <Property Name="WorkFollowDetailsID" Type="Int32" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="CompleteRate" Type="Int32" />
+    <NavigationProperty Name="tblProcess" Relationship="YazilimYonetimAraciModel.FK_tblProcessProcessID_WorkFollowProcessID" FromRole="tblWorkFollow" ToRole="tblProcess" />
+    <NavigationProperty Name="tblUsers" Relationship="YazilimYonetimAraciModel.FK_tblUsersUserID_WorkFollowUserID" FromRole="tblWorkFollow" ToRole="tblUsers" />
+    <NavigationProperty Name="tblWorkFollowDetails" Relationship="YazilimYonetimAraciModel.FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID" FromRole="tblWorkFollow" ToRole="tblWorkFollowDetails" />
+  </EntityType>
+  <EntityType Name="tblWorkFollowDetails">
+    <Key>
+      <PropertyRef Name="WorkFollowDetailsID" />
+    </Key>
+    <Property Name="WorkFollowDetailsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkFollowName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblWorkFollow" Relationship="YazilimYonetimAraciModel.FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID" FromRole="tblWorkFollowDetails" ToRole="tblWorkFollow" />
+  </EntityType>
+  <Association Name="FK_tblProcess_tblUsers">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblProcess" Role="tblProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblProcess">
+        <PropertyRef Name="ProjectManagerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProcessProcessID_tblUserProcessProcessID">
+    <End Type="YazilimYonetimAraciModel.tblProcess" Role="tblProcess" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblUserProcess" Role="tblUserProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProcess">
+        <PropertyRef Name="ProcessID" />
+      </Principal>
+      <Dependent Role="tblUserProcess">
+        <PropertyRef Name="ProcessID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProcessProcessID_WorkFollowProcessID">
+    <End Type="YazilimYonetimAraciModel.tblProcess" Role="tblProcess" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblWorkFollow" Role="tblWorkFollow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProcess">
+        <PropertyRef Name="ProcessID" />
+      </Principal>
+      <Dependent Role="tblWorkFollow">
+        <PropertyRef Name="ProcessID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProjectsProjectID_tblProcessProjectID">
+    <End Type="YazilimYonetimAraciModel.tblProjects" Role="tblProjects" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblProcess" Role="tblProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProjects">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="tblProcess">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProjects_tblUsers">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblProjects" Role="tblProjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblProjects">
+        <PropertyRef Name="ProjectOwnerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblProjects_tblUsers1">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblProjects" Role="tblProjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblProjects">
+        <PropertyRef Name="ProjectManagerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersUsersID__tblProjectProjectManagerID">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblProjects" Role="tblProjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblProjects">
+        <PropertyRef Name="ProjectManagerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersUsersID__tblProjectProjectOwnerID">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblProjects" Role="tblProjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblProjects">
+        <PropertyRef Name="ProjectOwnerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUserRoles_tblRoleNames">
+    <End Type="YazilimYonetimAraciModel.tblRoleNames" Role="tblRoleNames" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblUserRoles" Role="tblUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblRoleNames">
+        <PropertyRef Name="RoleNameID" />
+      </Principal>
+      <Dependent Role="tblUserRoles">
+        <PropertyRef Name="RoleNameID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUserLogsUserLogsID_tblUserLogDetailsUserLogsID">
+    <End Type="YazilimYonetimAraciModel.tblUserLogs" Role="tblUserLogs" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblUserLogDetails" Role="tblUserLogDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUserLogs">
+        <PropertyRef Name="UserLogsID" />
+      </Principal>
+      <Dependent Role="tblUserLogDetails">
+        <PropertyRef Name="UserLogsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersUsersID_tblUserLogsUserID">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblUserLogs" Role="tblUserLogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblUserLogs">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUserRolesUserRolesID_tblUserProcessUserRolesID">
+    <End Type="YazilimYonetimAraciModel.tblUserRoles" Role="tblUserRoles" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblUserProcess" Role="tblUserProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUserRoles">
+        <PropertyRef Name="UserRolesID" />
+      </Principal>
+      <Dependent Role="tblUserProcess">
+        <PropertyRef Name="UserRolesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersUsersID_tblUserProcessUsersID">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblUserProcess" Role="tblUserProcess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblUserProcess">
+        <PropertyRef Name="UsersID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUserRoles_tblUsers">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblUserRoles" Role="tblUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblUserRoles">
+        <PropertyRef Name="UsersID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblUsersUserID_WorkFollowUserID">
+    <End Type="YazilimYonetimAraciModel.tblUsers" Role="tblUsers" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblWorkFollow" Role="tblWorkFollow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblUsers">
+        <PropertyRef Name="UsersID" />
+      </Principal>
+      <Dependent Role="tblWorkFollow">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblWorkFollowDetailsWorkFollowDetailsID_WorkFollowWorkFollowDetailsID">
+    <End Type="YazilimYonetimAraciModel.tblWorkFollowDetails" Role="tblWorkFollowDetails" Multiplicity="0..1" />
+    <End Type="YazilimYonetimAraciModel.tblWorkFollow" Role="tblWorkFollow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblWorkFollowDetails">
+        <PropertyRef Name="WorkFollowDetailsID" />
+      </Principal>
+      <Dependent Role="tblWorkFollow">
+        <PropertyRef Name="WorkFollowDetailsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
